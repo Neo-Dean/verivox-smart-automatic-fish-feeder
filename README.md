@@ -1,4 +1,4 @@
-# verivox-smart-feeder
+# verivox-smart-automatic-fish-feeder
 IoT-enabled smart aquarium management system featuring automated feeding, water quality monitoring, and fail-safe scheduling.
 # VERIVOX: Smart Aquarium Management System 🌊🤖
 
