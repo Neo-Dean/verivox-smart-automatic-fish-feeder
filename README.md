@@ -19,7 +19,6 @@ The physical architecture of VERIVOX was custom-engineered using Fusion 360. All
 
 * **Interactive Assembly:** Click on the `VERIVOX_Full_Assembly.stl` file within GitHub to view and rotate the fully assembled hardware in 3D.
 * **Manufacturing Ready:** Individual components (Main Body, Lid, Motor Mount, Worm-Screw, etc.) are provided in modern `.3mf` format, preserving crucial slicing data for 3D printing.
-* **Design Highlights:** The enclosure features a precise sliding back panel for easy maintenance access, custom filament clearances, and a thumb-grip design for ergonomic manual operation.
 
 ## 🧠 System Architecture Highlight
 This repository contains the production firmware for the VERIVOX mainboard. The code is optimized to minimize server payload using delta thresholds (`thingProperties.h`) and features strict interrupt management (`IrReceiver.stop()`) to prevent timer conflicts between the IR hardware and PWM servo signals.
